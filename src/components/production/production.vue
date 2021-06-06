@@ -3,8 +3,32 @@
     <v-row style="    padding: 107px;">
       <v-col
         cols="5"
-        style="height:400px;width:200px; border: solid 1px; border-radius: 10px;"
+        style="height:500px; border: solid 1px; border-radius: 10px"
       >
+        <v-img
+          style="    width: 286px;
+    position: relative;
+    left: 14%;
+"
+          src="../../assets/images/custumer.png"
+        />
+        <h1>Personal</h1>
+        <div style="position:relative;left: 40%; padding-top:20px">
+          <v-row>
+            <v-col cols="2"
+              ><v-img src="../../assets/images/chatbubbles.png" width="50px"
+            /></v-col>
+            <v-col cols="10"><span>contact sale</span></v-col>
+          </v-row>
+        </div>
+        <v-row>
+          <v-col cols="2"
+            ><v-img src="../../assets/images/Yes.png" width="20px"
+          /></v-col>
+          <v-col cols="10"><span>Locale fresh</span></v-col>
+        </v-row>
+
+        <v-row style="padding-top:30px;"> </v-row>
       </v-col>
       <v-col cols="2"> </v-col>
       <v-col
@@ -62,7 +86,7 @@
           >
           <v-cols cols="8">
             <v-combobox
-              style="padding-left:40px ;width: 229px;"
+              style="padding-left:40px ;width: 265px;"
               v-model="select"
               :items="items"
               rounded
