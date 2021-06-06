@@ -9,7 +9,7 @@
       <v-col cols="2"> </v-col>
       <v-col
         cols="5"
-        style="height:400px; border: solid 1px; border-radius: 10px"
+        style="height:500px; border: solid 1px; border-radius: 10px"
       >
         <v-img
           style="    width: 286px;
@@ -19,12 +19,72 @@
           src="../../assets/images/custumer.png"
         />
         <h1>Entreprise</h1>
-
-        <v-img src="../../assets/images/chatbubbles.png" width="50px" />
+        <div style="position:relative;left: 40%; padding-top:20px">
+          <v-row>
+            <v-col cols="2"
+              ><v-img src="../../assets/images/chatbubbles.png" width="50px"
+            /></v-col>
+            <v-col cols="10"><span>contact sale</span></v-col>
+          </v-row>
+        </div>
+        <v-row>
+          <v-col cols="2"
+            ><v-img src="../../assets/images/Yes.png" width="20px"
+          /></v-col>
+          <v-col cols="10"
+            ><span>vertical farms with ai implimentation</span></v-col
+          >
+        </v-row>
+        <v-row>
+          <v-col cols="2"
+            ><v-img
+              src="../../assets/images/Icon_weather-raindrop.png"
+              width="10px"
+          /></v-col>
+          <v-col cols="10"><span>calculate water consumption</span></v-col>
+        </v-row>
+        <v-row style="padding-top:30px;">
+          <v-cols cols="4">
+            <span style="margin:10px">surface m² :</span></v-cols
+          >
+          <v-cols cols="8"
+            ><v-text-field
+              style="padding-left:40px ; height:5px"
+              rounded
+              dense
+              filled
+            ></v-text-field
+          ></v-cols>
+        </v-row>
+        <v-row style="padding-top:30px;">
+          <v-cols cols="4">
+            <span style="margin:10px">plant type :</span></v-cols
+          >
+          <v-cols cols="8">
+            <v-combobox
+              style="padding-left:40px ;width: 229px;"
+              v-model="select"
+              :items="items"
+              rounded
+              dense
+              filled
+            ></v-combobox>
+          </v-cols>
+        </v-row>
       </v-col>
     </v-row>
   </v-container>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      select: ["Vuetify"],
+      items: ["Programming", "Design", "Vue", "Vuetify"],
+    };
+  },
+};
+</script>
 <style scoped>
 h1 {
   text-align: center;
