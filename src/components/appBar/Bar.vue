@@ -14,9 +14,9 @@
         <router-link
           style="text-decoration: none;
     color: black;
-    justify:center
-    "
-          :to="link.link"
+    justify:center" 
+    
+          :to="link.link" id="nav"
           >{{ link.name }}</router-link
         >
       </v-btn>
@@ -50,13 +50,30 @@ export default {
 };
 </script>
 <style scoped>
+@font-face {
+    font-family: "GothamBook";
+    src: url("../../assets/images/Gotham-Font/GothamBook.ttf");
+}
+@font-face {
+    font-family: "GothamBold";
+    src: url("../../assets/images/Gotham-Font/GothamBold.ttf");
+    
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../../assets/images/Gotham-Font/GothamMedium.ttf");
+}
 .nav-items {
   margin-left: 18px;
 }
 .logo {
-  font-weight: bold;
   color: #dda15e;
-  font-family: gotham;
+  font-family: "Gotham";
   font-size: 30px;
+}
+#nav{
+    font-family: "GothamBook";
+    font-size: 20px;
+    color : #606c38
 }
 </style>

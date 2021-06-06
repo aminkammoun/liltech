@@ -9,30 +9,27 @@
     top: 20%;
     "
           >
-            <span
-              style="font-weight: bold;
-    font-size: 37px;"
-              >Lorem ipsum dolor sit, amet</span
-            ><br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id alias,
+            <span id="title">Lorem ipsum dolor sit, amet</span>
+              <br />
+             <p id="text">
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id alias,
             ad voluptatem ratione voluptatibus tempore autem obcaecati nam
             beatae modi sit sunt necessitatibus in dignissimos. Nihil ratione
-            repudiandae temporibus iste?</span
-          ></v-col
-        >
+            repudiandae temporibus iste?</p> 
+        </span></v-col>
         <v-col md="6">
           <svg
             style="height: 50%;
     position: relative;
     
-    top: 13%;
+    top: 20%;
     "
             id="effa29f7-1903-425a-b28d-f3a5dd58d661"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="430.25869"
-            height="500"
+            width="700"
+            height="650"
             viewBox="0 0 930.25869 652"
           >
             <defs>
@@ -329,3 +326,28 @@ export default {
   data: () => ({}),
 };
 </script>
+<style scoped>
+@font-face {
+    font-family: "GothamBook";
+    src: url("../../assets/images/Gotham-Font/GothamBook.ttf");
+}
+@font-face {
+    font-family: "GothamBold";
+    src: url("../../assets/images/Gotham-Font/GothamBold.ttf");
+    
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../../assets/images/Gotham-Font/GothamMedium.ttf");
+}
+#title{
+  font-family: "GothamBold";
+  font-size: 40px;
+  color: #283618;
+}
+#text{
+    font-family: "GothamBold";
+    font-size: 25px;
+    color: #606c38;
+}
+</style>
