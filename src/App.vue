@@ -1,8 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar app>
-      <Bar />
-    </v-app-bar>
+    <Bar />
 
     <v-main style="background-color: #FFFEF6; padding-bottom: 100px;">
       <router-view></router-view>
@@ -13,7 +11,6 @@
 
 <script>
 import Bar from "./components/appBar/Bar";
-
 import Footer from "./components/footer/footer";
 
 export default {
