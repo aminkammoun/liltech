@@ -73,6 +73,7 @@
           >
           <v-cols cols="8"
             ><v-text-field
+              v-model="surface"
               style="padding-left:40px ; height:5px"
               rounded
               dense
@@ -95,6 +96,8 @@
             ></v-combobox>
           </v-cols>
         </v-row>
+        <v-btn @click="CalculateConsumption">calculate</v-btn>
+        <span style="padding-left:100px">{{result}}</span>
       </v-col>
     </v-row>
   </v-container>
@@ -103,10 +106,32 @@
 export default {
   data() {
     return {
-      select: ["Vuetify"],
-      items: ["Programming", "Design", "Vue", "Vuetify"],
+      select: ["Onion"],
+      items: ["Lettuce", "Pepper", "Tomatoe", "Carrot"],
+      plants : [
+        {name : "Lettuce", consumption : 9.25}, 
+        {name : "Pepper", consumption : 5.6},
+        {name : "Tomatoe", consumption : 9},
+        {name : "Carrot", consumption : 3.5},
+        {name : "Onion", consumption : 3.7}
+      ],
+      surface : 1,
+      result : ""
     };
   },
+  methods :{
+        CalculateConsumption(){
+        console.log(this.select);
+        let totalConsumption;
+        let selectedPlant = this.plants.filter(plant => plant.name == this.select);
+        if(selectedPlant[0] != undefined){
+            totalConsumption = selectedPlant[0].consumption * this.surface * 53;
+            this.result = Math.floor(totalConsumption) + " litres/year";
+          }else{
+            this.result = "plant doesn't exist in database";
+          }
+        }
+  }
 };
 </script>
 <style scoped>
