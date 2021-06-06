@@ -7,14 +7,14 @@
             style=" color: rgb(96, 108, 56);
     position: relative;
     top: 20%;">
-            <span id="title">Our Mission</span>
+            <span id="title">AGRI+</span>
               <br />
-             <p id="text">Our goal is to save water and to bet on a more profitable, efficient, safe, and environmentally friendly future through implementing vertical farming facilities.</p> 
+             <p id="text">The Future of Agriculture</p> 
         </span></v-col>
-        <v-col md="6">
-          <svg
-            style="height: 50%;
-    position: relative;
+        <v-col md="6" id="img">
+          <svg 
+            style="height: 60%;
+    position: relative;margin-right:150px;
     
     top: 20%;
     "
@@ -23,7 +23,7 @@
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="700"
-            height="650"
+            height="600"
             viewBox="0 0 930.25869 652"
           >
             <defs>
@@ -336,12 +336,18 @@ export default {
 }
 #title{
   font-family: "GothamBold";
-  font-size: 40px;
+  font-size: 50px;
   color: #283618;
 }
 #text{
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 70px;
     font-family: "GothamBold";
-    font-size: 25px;
+    font-size: 60px;
     color: #606c38;
+}
+#id{
+    margin-right:150px;
 }
 </style>
