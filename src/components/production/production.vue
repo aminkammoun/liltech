@@ -3,7 +3,7 @@
     <v-row style="    padding: 107px;">
       <v-col
         cols="5"
-        style="height:500px; border: solid 1px; border-radius: 10px"
+        style="height:550px; border: solid 1px; border-radius: 10px"
       >
         <v-img
           style="    width: 100px;height:100px;margin-left:90px;
@@ -51,7 +51,7 @@
       <v-col cols="2"> </v-col>
       <v-col
         cols="5"
-        style="height:500px; border: solid 1px; border-radius: 10px"
+        style="height:550px; border: solid 1px; border-radius: 10px"
       >
         <v-img
           style="    width: 286px;
@@ -119,11 +119,16 @@
             ></v-combobox>
           </v-cols>
         </v-row>
-        <v-btn @click="CalculateConsumption">calculate</v-btn>
-        <span style="padding-left:100px">{{ result }}</span>
+        <v-btn
+          @click="CalculateConsumption"
+          color="#BC6C25"
+          style="margin-top: 20px"
+          ><span style="color:white">calculate</span></v-btn
+        >
+        <span style="padding-left:100px; padding-top: 25px">{{ result }}</span>
       </v-col>
     </v-row>
-    <h1>Our Products</h1>
+    <h1 class="tile1">Our Products</h1>
     <div
       style="height:2px; background-color:black;width:240px;margin: auto"
     ></div>
@@ -207,5 +212,8 @@ h1 {
   color: #bc6c25;
   font-weight: bold;
   padding-top: 10px;
+}
+.tile1 {
+  color: #606c38;
 }
 </style>
