@@ -2,24 +2,6 @@
   <v-main>
     <v-container class="py-0 fill-height">
       <v-row>
-        <v-col md="6"
-          ><span
-            style=" color: rgb(96, 108, 56);
-    position: relative;
-    top: 20%;
-    "
-          >
-            <span
-              style="font-weight: bold;
-    font-size: 37px;"
-              >Lorem ipsum dolor sit, amet</span
-            ><br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id alias,
-            ad voluptatem ratione voluptatibus tempore autem obcaecati nam
-            beatae modi sit sunt necessitatibus in dignissimos. Nihil ratione
-            repudiandae temporibus iste?</span
-          ></v-col
-        >
         <v-col md="6">
           <svg
             style="height: 50%;
@@ -31,8 +13,8 @@
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="430.25869"
-            height="500"
+            width="450.25869"
+            height="700"
             viewBox="0 0 930.25869 652"
           >
             <defs>
@@ -319,13 +301,31 @@
             />
           </svg>
         </v-col>
+        <v-col md="6"
+        style="padding:30px"
+          ><span
+            style="     color: rgb(96, 108, 56);
+    position: relative;
+    top: 20%;
+    right: 20%;
+    
+    "
+          >
+            <span
+              style="font-weight: bold;
+    font-size: 37px;"
+              >Lorem ipsum dolor sit amet</span
+            ><br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id alias,
+            ad voluptatem ratione voluptatibus tempore autem obcaecati nam
+            beatae modi sit sunt necessitatibus in dignissimos. Nihil ratione
+            repudiandae temporibus iste?</span
+          ></v-col
+        >
       </v-row>
     </v-container>
   </v-main>
 </template>
 <script>
-export default {
-  components: {},
-  data: () => ({}),
-};
+export default {};
 </script>

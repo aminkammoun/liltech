@@ -4,7 +4,7 @@
       <Bar />
     </v-app-bar>
 
-    <v-main style="background-color: #021827; padding-bottom: 100px;">
+    <v-main style="background-color: #FFFEF6; padding-bottom: 100px;">
       <router-view></router-view>
     </v-main>
     <Footer />
