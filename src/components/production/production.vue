@@ -72,7 +72,7 @@
             ></v-combobox>
           </v-cols>
         </v-row>
-        <v-btn @click="CalculateConsumption">calc</v-btn>
+        <v-btn @click="CalculateConsumption">calculate</v-btn>
         <span style="padding-left:100px">{{result}}</span>
       </v-col>
     </v-row>
