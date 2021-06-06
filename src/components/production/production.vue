@@ -6,26 +6,35 @@
         style="height:500px; border: solid 1px; border-radius: 10px"
       >
         <v-img
-          style="    width: 286px;
+          style="    width: 100px;height:100px;margin-left:90px;
     position: relative;
     left: 14%;
 "
-          src="../../assets/images/custumer.png"
+          src="../../assets/images/Group_10.png"
         />
         <h1>Personal</h1>
         <div style="position:relative;left: 40%; padding-top:20px">
+          
           <v-row>
             <v-col cols="2"
               ><v-img src="../../assets/images/chatbubbles.png" width="50px"
             /></v-col>
-            <v-col cols="10"><span>contact sale</span></v-col>
+            <v-col cols="10"><span>contact <br> sales</span></v-col>
           </v-row>
         </div>
         <v-row>
           <v-col cols="2"
-            ><v-img src="../../assets/images/Yes.png" width="20px"
+            ><v-img src="../../assets/images/Yes.png" width="20px" style="margin-left:25px"
           /></v-col>
-          <v-col cols="10"><span>Locale fresh</span></v-col>
+          <v-col cols="10"><span style="margin-left:20px">Locale fresh plants</span></v-col>
+          <v-col>
+               <v-img
+          style="    width: 200px;height:170px;margin-left:40px;
+    position: relative;
+    left: 14%;
+"
+          src="../../assets/images/Capture.png"
+        /></v-col>
         </v-row>
 
         <v-row style="padding-top:30px;"> </v-row>
@@ -48,7 +57,7 @@
             <v-col cols="2"
               ><v-img src="../../assets/images/chatbubbles.png" width="50px"
             /></v-col>
-            <v-col cols="10"><span>contact sale</span></v-col>
+            <v-col cols="10"><span>contact <br> sales</span></v-col>
           </v-row>
         </div>
         <v-row>
