@@ -6,16 +6,10 @@
           ><span
             style=" color: rgb(96, 108, 56);
     position: relative;
-    top: 20%;
-    "
-          >
-            <span id="title">Lorem ipsum dolor sit, amet</span>
+    top: 20%;">
+            <span id="title">Our Mission</span>
               <br />
-             <p id="text">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id alias,
-            ad voluptatem ratione voluptatibus tempore autem obcaecati nam
-            beatae modi sit sunt necessitatibus in dignissimos. Nihil ratione
-            repudiandae temporibus iste?</p> 
+             <p id="text">Our goal is to save water and to bet on a more profitable, efficient, safe, and environmentally friendly future through implementing vertical farming facilities.</p> 
         </span></v-col>
         <v-col md="6">
           <svg

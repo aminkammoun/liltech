@@ -24,10 +24,10 @@
       <v-spacer></v-spacer>
 
       <v-responsive max-width="260">
-        <v-btn depressed color="#DDA15E" large>
+        <v-btn depressed color="#bc6c25" large>
           <span style="color: white"> <router-link
           style="text-decoration: none;
-    color: black;
+    color: #FFFEF6;
     justify:center
     "
           to="/contact"
